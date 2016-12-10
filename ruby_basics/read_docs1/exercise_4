@@ -1,0 +1,9 @@
+Locate the documentation for break, and determine what value break sets the
+return value to for the while loop.
+
+The documentation for break is listed in the Core API, under control expressions,
+near the bottom of the page as "break Statement". It is also listed on the Object
+class page.
+
+Break ends the while loop early, and returns nil. If break is supplied an
+argument, break will return a value based on that argument.

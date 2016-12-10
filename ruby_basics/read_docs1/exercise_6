@@ -1,0 +1,7 @@
+Using ruby documentation, determine how you would write a Symbol that represents
+your name.
+
+The documentation for Symbol is found under Core, Syntax, literals, symbols. The
+easiest way to it is using the literals.rdoc link on the left side.
+
+Symbols use the syntax ":Ken_Fisher". The ":" being the designator of a symbol.

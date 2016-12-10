@@ -1,0 +1,3 @@
+Using the ruby documentation, determine the value a while loop returns.
+
+A while loop returns a nil value unless a break is used to supply a value.
