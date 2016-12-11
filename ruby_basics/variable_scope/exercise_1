@@ -1,0 +1,15 @@
+Given the following code:
+
+a = 7
+
+def my_value(b)
+  b += 10
+end
+
+my_value(a)
+puts a
+
+What will it print and why?
+
+puts a => 7
+Only the reference to b is changed, a is not modified by my_value.

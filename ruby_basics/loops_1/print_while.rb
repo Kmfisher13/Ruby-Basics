@@ -1,0 +1,9 @@
+# Using a while loop, print 5 random nmbers between 0 and 99.
+
+numbers = []
+
+while numbers.length < 5
+  numbers.push(rand(100))
+end
+
+puts numbers

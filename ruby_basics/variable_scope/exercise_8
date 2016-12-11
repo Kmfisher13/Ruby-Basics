@@ -1,0 +1,12 @@
+What will the following code print and why?
+
+array = [1, 2, 3]
+
+array.each do |element|
+  a = element
+end
+
+puts a
+
+
+This code returns an error. The variable "a" is undefined outside of the block.

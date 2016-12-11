@@ -1,0 +1,15 @@
+What will the following code print and why?
+
+a = 7
+array = [1, 2, 3]
+
+array.each do |element|
+  a = element
+end
+
+puts a
+
+puts a => 3
+The variable "a" starts at 7, is reassigned to 1, 2, and finaly 3. The method
+#each uses a block. Blocks can use and modify variables that are outside the
+block.
