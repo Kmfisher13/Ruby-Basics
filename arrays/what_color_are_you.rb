@@ -1,0 +1,11 @@
+# Given the code below, use array#each to iterate over colors and print
+# each element.
+
+colors = ['red', 'yellow', 'purple', 'green']
+
+colors.each { |color| puts("I'm the color #{color}!") }
+
+# or
+# color.each do |color|
+#   puts "I'm the color #{color}!"
+# end
